@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloria+Hallelujah&display=swap');
+
+h1 {
+  font-family: 'Gloria Hallelujah';
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Anton';
+}
+
+nav a:first-child {
+  text-transform: lowercase;
+  font-style: italic;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #CAF8D1;
+  border-radius: 5px;
